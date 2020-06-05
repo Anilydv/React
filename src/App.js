@@ -1,6 +1,7 @@
 import React from "react";
 // import FilterableProductTable from "./thinkInReact/FilterableProductTable";
-import Test from "./components/Test";
+// import Test from "./components/Test";
+import TodoApp from "./todoListApp/TodoApp";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,12 @@ function App() {
   //     price: "$49.99",
   //     stocked: true,
   //     name: "Football",
+  //   },
+  //   {
+  //     category: "Electronics",
+  //     price: "$199.99",
+  //     stocked: true,
+  //     name: "Nexus 7",
   //   },
   //   {
   //     category: "Sporting Goods",
@@ -35,17 +42,12 @@ function App() {
   //     stocked: false,
   //     name: "iPhone 5",
   //   },
-  //   {
-  //     category: "Electronics",
-  //     price: "$199.99",
-  //     stocked: true,
-  //     name: "Nexus 7",
-  //   },
   // ];
   return (
     <div className="App">
       {/* <FilterableProductTable products={PRODUCTS} /> */}
-      <Test />
+      {/* <Test /> */}
+      <TodoApp />
     </div>
   );
 }
